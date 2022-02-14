@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "Sao binary là 0 với 1 mà chiếm 8 bit còn base64 để mã hóa chữ cái mà lại có 6 bit.",
+      "description" : "",
+      "category" : "",
+      "tags"     : "other data til",
+      "url"      : "/binary-base64",
+      "date"     : "2022-02-14 00:00:00 +0100"
+    } ,
+  
+    {
       "title"    : "Tôi muốn viết blog như thế nào?",
       "description" : "",
       "category" : "",

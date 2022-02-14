@@ -4,13 +4,65 @@
  <title>MòeVL</title>
  <link href="https://moevl.com/atom.xml" rel="self"/>
  <link href="https://moevl.com/"/>
- <updated>2022-02-14T10:40:44+01:00</updated>
+ <updated>2022-02-14T12:43:30+01:00</updated>
  <id>https://moevl.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Sao binary là 0 với 1 mà chiếm 8 bit còn base64 để mã hóa chữ cái mà lại có 6 bit.</title>
+   <link href="https://moevl.com/binary-base64"/>
+   <updated>2022-02-14T00:00:00+01:00</updated>
+   <id>https://moevl.com/binary-base64</id>
+   <content type="html">&lt;p&gt;Câu hỏi này đặt ra khi mình không hiểu cụ thể mã hóa là làm cái gì.&lt;/p&gt;
+
+&lt;p&gt;Today I Learnt&lt;/p&gt;
+
+&lt;p&gt;Binary và Base64 đều là hệ thống mã hóa. Ví dụ chữ Man thì có 3 chữ cái, nếu mã hóa, không cần biết là mã hóa theo hệ thống gì, thì ta tạm kết quả sẽ là 3 “kí tự đại diện”&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;01001101 01100001 01101110
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Một “kí tự đại diện” của bên binary thì có 8 chữ số, mỗi chữ số thì hoặc là số 0, hoặc là số 1. Mỗi chữ số này chiếm 1 bit trong bộ nhớ. Vậy nên một “kí tự đại diện” sẽ ngốn 8 bit.&lt;/p&gt;
+
+&lt;p&gt;Cũng vì chứa 8 chữ số, mà dãy gồm 8 chữ số đó có 2^8 = 256 biến thể khác nhau, chúng ta đem nó đi đại diện cho 256 kí tự khác nhau cần được mã hóa, còn kí tự đó là gì thì tùy, chữ cái, số má, whatever.&lt;/p&gt;
+
+&lt;p&gt;Hội đồng lập ra cái mã nhị phân binary này nghĩ rằng 256 biến thể là thừa đủ cho cả bảng chữ cái tiếng Anh và cả số má 0-9 nữa. Nhưng hội đồng lập ra cái Base64 bảo thấy 256 vẫn còn hơi nhiều. Nên ông tính lại, thì bảng chữ cái Tiếng Anh, gồm cả hoa thường, rồi chữ số, rồi dấu má kí tự đặc biệt,… cộng lại chỉ cần 64 slot là quá đủ cho cuộc đời rồi. Nên ông quyết định chỉ dành ra 6 chữ số tức 6 bit cho mỗi kí tự, 2^6 = 64 slots.&lt;/p&gt;
+
+&lt;p&gt;Chuyển từ binary qua base64 thì làm theo kiểu dồn như sau&lt;/p&gt;
+
+&lt;p&gt;Từ chữ cái -&amp;gt; chuyển sang số binary (theo bảng alphabet in binary) -&amp;gt; phân chia lại theo từng cụm 6 chữ số -&amp;gt; Convert ngược lại thành chữ cái (theo bảng base64 index table)&lt;/p&gt;
+
+&lt;p&gt;Ví dụ chữ Man chuyển sang binary&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/4YJZZ9W/Screenshot-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;01001101 01100001 01101110
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Dồn lại&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;010011010110000101101110
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Chia lại theo từng cụm 6 chữ số (nặng 6 bit)&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;010011 010110 000101 101110
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Đối chiếu với bảng base64 thì được vừa khéo 4 kí tự&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/qyws0f3/Screenshot-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;T	W	F	u
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Có cái hay là dù mỗi kí tự sau khi chuyển sang base64 chỉ chiếm 6 bit tức là nhỏ hơn binary là 8 bit, nhưng số lượng kí tự lại cần nhiều hơn. Đâm ra file size base64 vẫn lớn hơn.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Tôi muốn viết blog như thế nào?</title>
