@@ -4,13 +4,61 @@
  <title>MòeVL</title>
  <link href="https://moevl.com/atom.xml" rel="self"/>
  <link href="https://moevl.com/"/>
- <updated>2022-02-14T13:04:31+01:00</updated>
+ <updated>2022-02-15T15:03:11+01:00</updated>
  <id>https://moevl.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Hệ thập lục (gương mặt vàng trong làng có nhiều định dạng)</title>
+   <link href="https://moevl.com/hexadecimal"/>
+   <updated>2022-02-15T00:00:00+01:00</updated>
+   <id>https://moevl.com/hexadecimal</id>
+   <content type="html">&lt;p&gt;Dữ liệu nhị phân thì thân thiện với máy nhưng không thân thiện với người (thì rõ, 000110101010101010), sinh ra hệ thập lục phân Hexadecimal. Cách chuyển đổi thì như sau&lt;/p&gt;
+
+&lt;p&gt;Chia cái số nhị phân ra thành cụm 4&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0101 	1110 	1011 	0101 	0010
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Rồi convert từng cụm  bằng cách: Đếm từ phải qua, nếu chữ số là 0 thì bỏ qua, nếu là 1 thì cộng vào tổng một lượng là 2 mũ [vị trí của chữ số đó]&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0101 = 2^0 + 0 + 2^2 = 5
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Rồi đối chiếu với bảng quy đổi Hexadecimal: từ 0-9 thì để nguyên, từ 10-15 thì đổi thành A-B-C-D-E-F. Thì số trên ở hệ Hexadecimal là&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;5
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Đây cũng là lí do tại sao lại là thập lục (16) vì con số thập lục phân sinh ra bằng cách cắn đôi một con nhị phân 8 bit, nó chỉ có 4 chữ số.  Lớn nhất là 1111&lt;/p&gt;
+
+&lt;p&gt;1111 = 2^0 + 2^1 + 2^2 + 2^3 = 1+2+4+8 = 15&lt;/p&gt;
+
+&lt;p&gt;15 thì đếm từ 0 đến 15 thì chỉ có 16 số thôi. Nên hệ thập lục phân chỉ cần 16 chữ số đại diện.&lt;/p&gt;
+
+&lt;p&gt;Also, con thập lục này nhìn dễ gây nhầm với hệ thập phân bình thường nên người ta nghĩ ra cách để định dạng nó, &lt;a href=&quot;https://en.wikipedia.org/wiki/Hexadecimal&quot;&gt;mà mỗi ngôn ngữ mỗi môi trường lại định dạng một kiểu&lt;/a&gt; mới vui&lt;/p&gt;
+
+&lt;p&gt;lúc thì &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\x1B&lt;/code&gt; lúc &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0x1B&lt;/code&gt; lúc &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%20&lt;/code&gt; (dấu cách trên trình duyệt) lúc &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;U+20AC&lt;/code&gt; lúc &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;amp;#x2019;&lt;/code&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Tên method không giống với điều nó làm</title>
+   <link href="https://moevl.com/getType-json"/>
+   <updated>2022-02-14T00:00:00+01:00</updated>
+   <id>https://moevl.com/getType-json</id>
+   <content type="html">&lt;p&gt;Đọc mấy tên method muốn lộn mề. Ví dụ method &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;json()&lt;/code&gt; của object &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Response&lt;/code&gt;, nghe cứ tưởng là convert ra JSON?! Thực chất là nó &lt;strong&gt;nhận&lt;/strong&gt; dữ liệu JSON rồi convert ra object.&lt;/p&gt;
+
+&lt;p&gt;Method &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getType()&lt;/code&gt; của object &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClipboardItem&lt;/code&gt;, không phải là để lấy type của item, vì lấy type thì có cái property &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClipboardItem.types&lt;/code&gt; rồi. Còn cái method &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getType()&lt;/code&gt; thì thực chất &lt;strong&gt;nhận&lt;/strong&gt; tên type rồi trả về cái blob.&lt;/p&gt;
+
+&lt;p&gt;Hài.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Sao binary là 0 với 1 mà chiếm 8 bit còn base64 để mã hóa chữ cái mà lại có 6 bit.</title>
@@ -94,6 +142,10 @@
 &lt;h2 id=&quot;til&quot;&gt;TIL&lt;/h2&gt;
 
 &lt;p&gt;Có những thứ mình từng tưởng là đúng nhưng lại hóa ra sai, việc đưa kiến thức sai quả là nguy hiểm, ảnh hưởng rất xấu đến thói quen lập trình của nhiều người vô tội. Vì thế nên viết về những thứ bản thân mình đã làm thạo và fix lỗi liên quan ít nhất vài lần. Khi viết về những cái mình mới tìm hiểu ở thời điểm viết thì gắn thẻ TodayILearnt như kiểu xe tập lái gắn biển để mọi người xung quanh đi cẩn thận.&lt;/p&gt;
+
+&lt;h2 id=&quot;không-copy-paste-hoặc-vừa-dòm-ngó-ở-đâu-vừa-viết&quot;&gt;Không copy paste hoặc vừa dòm ngó ở đâu vừa viết&lt;/h2&gt;
+
+&lt;p&gt;Hiểu cái gì thì viết cái đó, không xào nấu lại của document khác, không viết lại những cái người khác dễ dàng tìm được trên mạng, không tạo thêm content rác thừa thãi lên không gian mạng.&lt;/p&gt;
 </content>
  </entry>
  
