@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>MòeVL</title>
- <link href="https://moevl.com/atom.xml" rel="self"/>
- <link href="https://moevl.com/"/>
- <updated>2022-04-02T19:05:19+02:00</updated>
- <id>https://moevl.com</id>
+ <link href="https://moemoele.github.io/atom.xml" rel="self"/>
+ <link href="https://moemoele.github.io/"/>
+ <updated>2022-04-02T19:12:13+02:00</updated>
+ <id>https://moemoele.github.io</id>
  <author>
    <name></name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Hệ thập lục (gương mặt vàng trong làng có nhiều định dạng)</title>
-   <link href="https://moevl.com/hexadecimal"/>
+   <link href="https://moemoele.github.io/hexadecimal"/>
    <updated>2022-02-15T00:00:00+01:00</updated>
-   <id>https://moevl.com/hexadecimal</id>
+   <id>https://moemoele.github.io/hexadecimal</id>
    <content type="html">&lt;p&gt;Dữ liệu nhị phân thì thân thiện với máy nhưng không thân thiện với người (thì rõ, 000110101010101010), sinh ra hệ thập lục phân Hexadecimal. Cách chuyển đổi thì như sau&lt;/p&gt;
 
 &lt;p&gt;Chia cái số nhị phân ra thành cụm 4&lt;/p&gt;
@@ -49,9 +49,9 @@
  
  <entry>
    <title>Tên method không giống với điều nó làm</title>
-   <link href="https://moevl.com/getType-json"/>
+   <link href="https://moemoele.github.io/getType-json"/>
    <updated>2022-02-14T00:00:00+01:00</updated>
-   <id>https://moevl.com/getType-json</id>
+   <id>https://moemoele.github.io/getType-json</id>
    <content type="html">&lt;p&gt;Đọc mấy tên method muốn lộn mề. Ví dụ method &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;json()&lt;/code&gt; của object &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Response&lt;/code&gt;, nghe cứ tưởng là convert ra JSON?! Thực chất là nó &lt;strong&gt;nhận&lt;/strong&gt; dữ liệu JSON rồi convert ra object.&lt;/p&gt;
 
 &lt;p&gt;Method &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getType()&lt;/code&gt; của object &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClipboardItem&lt;/code&gt;, không phải là để lấy type của item, vì lấy type thì có cái property &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClipboardItem.types&lt;/code&gt; rồi. Còn cái method &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getType()&lt;/code&gt; thì thực chất &lt;strong&gt;nhận&lt;/strong&gt; tên type rồi trả về cái blob.&lt;/p&gt;
@@ -62,9 +62,9 @@
  
  <entry>
    <title>Sao binary là 0 với 1 mà chiếm 8 bit còn base64 để mã hóa chữ cái mà lại có 6 bit.</title>
-   <link href="https://moevl.com/binary-base64"/>
+   <link href="https://moemoele.github.io/binary-base64"/>
    <updated>2022-02-14T00:00:00+01:00</updated>
-   <id>https://moevl.com/binary-base64</id>
+   <id>https://moemoele.github.io/binary-base64</id>
    <content type="html">&lt;p&gt;Câu hỏi này đặt ra khi mình không hiểu cụ thể mã hóa là làm cái gì.&lt;/p&gt;
 
 &lt;p&gt;Today I Learnt&lt;/p&gt;
@@ -114,9 +114,9 @@
  
  <entry>
    <title>Tôi muốn viết blog như thế nào?</title>
-   <link href="https://moevl.com/toi-viet-blog"/>
+   <link href="https://moemoele.github.io/toi-viet-blog"/>
    <updated>2022-02-13T00:00:00+01:00</updated>
-   <id>https://moevl.com/toi-viet-blog</id>
+   <id>https://moemoele.github.io/toi-viet-blog</id>
    <content type="html">&lt;h2 id=&quot;tâm-lý-người-đi-search-tutorial&quot;&gt;Tâm lý người đi search tutorial&lt;/h2&gt;
 
 &lt;p&gt;Nếu là tutorial về công nghệ, thường thì người đọc đang trong tâm lý đau đầu rối rắm bởi mắc kẹt đâu đó, nóng lòng muốn xong vấn đề, đã lướt qua rất nhiều trang rồi và không mong mỏi gì hơn là blog hãy viết toẹt ra cách giải quyết 1 cách trực diện, dễ dàng nắm điểm mấu chốt, càng ngắn càng tốt, càng dễ nhìn càng tốt, để đập phát là được luôn, 1 phát ăn ngay không phải nghĩ nhiều, chạy được luôn, không lỗi lầm. Không phải dài dòng như đi dạm ngõ, quan viên hai họ mỗi bên đọc một bài diễn thuyết để mở đầu câu chuyện.&lt;/p&gt;
