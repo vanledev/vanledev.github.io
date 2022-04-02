@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>MòeVL</title>
+ <title>Mòe</title>
  <link href="https://moemoele.github.io/atom.xml" rel="self"/>
  <link href="https://moemoele.github.io/"/>
- <updated>2022-04-02T19:12:13+02:00</updated>
+ <updated>2022-04-02T19:13:19+02:00</updated>
  <id>https://moemoele.github.io</id>
  <author>
    <name></name>

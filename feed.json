@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "MòeVL",
+    "title": "Mòe",
     "home_page_url": "https://moemoele.github.io/",
     "feed_url": "https://moemoele.github.io/feed.json",
-    "description": "Nhật ký học lập trình của một n00b",
+    "description": "Nhật ký học lập trình của tôi",
     "icon": "https://moemoele.github.io/apple-touch-icon.png",
     "favicon": "https://moemoele.github.io/favicon.ico",
     "expired": false,
