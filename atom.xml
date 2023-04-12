@@ -4,7 +4,7 @@
  <title>vanledev</title>
  <link href="https://vanledev.github.io/atom.xml" rel="self"/>
  <link href="https://vanledev.github.io/"/>
- <updated>2023-04-12T07:33:21+02:00</updated>
+ <updated>2023-04-12T07:50:58+02:00</updated>
  <id>https://vanledev.github.io</id>
  <author>
    <name></name>
@@ -117,35 +117,12 @@
    <link href="https://vanledev.github.io/toi-viet-blog"/>
    <updated>2022-02-13T00:00:00+01:00</updated>
    <id>https://vanledev.github.io/toi-viet-blog</id>
-   <content type="html">&lt;h2 id=&quot;tâm-lý-người-đi-search-tutorial&quot;&gt;Tâm lý người đi search tutorial&lt;/h2&gt;
-
-&lt;p&gt;Nếu là tutorial về công nghệ, thường thì người đọc đang trong tâm lý đau đầu rối rắm bởi mắc kẹt đâu đó, nóng lòng muốn xong vấn đề, đã lướt qua rất nhiều trang rồi và không mong mỏi gì hơn là blog hãy viết toẹt ra cách giải quyết 1 cách trực diện, dễ dàng nắm điểm mấu chốt, càng ngắn càng tốt, càng dễ nhìn càng tốt, để đập phát là được luôn, 1 phát ăn ngay không phải nghĩ nhiều, chạy được luôn, không lỗi lầm. Không phải dài dòng như đi dạm ngõ, quan viên hai họ mỗi bên đọc một bài diễn thuyết để mở đầu câu chuyện.&lt;/p&gt;
-
-&lt;p&gt;Nếu là bài viết về lý thuyết tổng quan, hạn chế quăng code vì sẽ lỗi thời sớm, và cũng không tốt lắm khiến người đọc copy lười biếng, nên tăng cường nêu khái niệm, biểu đồ, giải thích, mô tả.&lt;/p&gt;
-
-&lt;h2 id=&quot;tập-trung-vào-khái-niệm-hay-bước-làm&quot;&gt;Tập trung vào khái niệm hay bước làm?&lt;/h2&gt;
-
-&lt;p&gt;Những gì cần phải hiểu thì tập trung vào khái niệm và cách giải quyết vấn đề. Những gì mà mọi người hầu như chỉ cần đạt kết quả để tập trung làm việc khác, thì tập trung vào show code và cách làm. Không tạo tutorial những thứ mọi người nên học để tự làm. Không hướng dẫn những cái quá dễ tự suy ra được.&lt;/p&gt;
-
-&lt;h2 id=&quot;hài-hước&quot;&gt;Hài hước&lt;/h2&gt;
-
-&lt;p&gt;Không được thiếu đi yếu tố hài hước. Phong cách không cần nghiêm trang đĩnh đạc nhàm chán, vì vậy thì khác gì đọc document đâu. Với lại mục đích của mình là lan tỏa niềm vui và cảm hứng chứ không phải chỉ lan tỏa công nghệ, khích lệ tinh thần cho bản thân và đồng đội đôi khi quan trọng hơn là chỉ ra lý thuyết gì đó.&lt;/p&gt;
-
-&lt;h2 id=&quot;dễ-hiểu-và-mộc-mạc&quot;&gt;Dễ hiểu và mộc mạc&lt;/h2&gt;
-
-&lt;p&gt;Bản thân mình cũng cùi nên nhiều khi đọc tut khó mình chả hiểu gì. Ngược lại khi sờ vào được một bài vừa dễ hiểu vừa thẳng thắn, cách hành văn giản dị như một số bro trên Kipalog mình thấy vô cùng cảm kích.&lt;/p&gt;
-
-&lt;h2 id=&quot;không-đả-kích&quot;&gt;Không đả kích&lt;/h2&gt;
-
-&lt;p&gt;Tung hoành trên cõi mạng bấy lâu mình thấy rất dễ vô tình gây hấn. Nên để tạo không khí hòa bình chung mình sẽ cố gắng tránh đả kích hay xúc phạm ai trên blog này.&lt;/p&gt;
-
-&lt;h2 id=&quot;til&quot;&gt;TIL&lt;/h2&gt;
-
-&lt;p&gt;Có những thứ mình từng tưởng là đúng nhưng lại hóa ra sai, việc đưa kiến thức sai quả là nguy hiểm, ảnh hưởng rất xấu đến thói quen lập trình của nhiều người vô tội. Vì thế nên viết về những thứ bản thân mình đã làm thạo và fix lỗi liên quan ít nhất vài lần. Khi viết về những cái mình mới tìm hiểu ở thời điểm viết thì gắn thẻ TodayILearnt như kiểu xe tập lái gắn biển để mọi người xung quanh đi cẩn thận.&lt;/p&gt;
-
-&lt;h2 id=&quot;không-copy-paste-hoặc-vừa-dòm-ngó-ở-đâu-vừa-viết&quot;&gt;Không copy paste hoặc vừa dòm ngó ở đâu vừa viết&lt;/h2&gt;
-
-&lt;p&gt;Hiểu cái gì thì viết cái đó, không xào nấu lại của document khác, không viết lại những cái người khác dễ dàng tìm được trên mạng, không tạo thêm content rác thừa thãi lên không gian mạng.&lt;/p&gt;
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Những gì cần phải hiểu thì tập trung vào khái niệm và cách giải quyết vấn đề. Những gì mà mọi người hầu như chỉ cần đạt kết quả để tập trung làm việc khác, thì tập trung vào show code và cách làm. Không tạo tutorial những thứ nên tự làm, những cái quá dễ tự suy ra được, những cái dễ kiếm trên Internet.&lt;/li&gt;
+  &lt;li&gt;Giọng văn dễ hiểu, giản dị, hài hước. Bản thân mình cũng cùi nên nhiều khi đọc tut khó mình chả hiểu gì. Ngược lại khi sờ vào được một bài đơn giản ngắn gọn dễ hiểu lại còn hài, mình vừa cảm kích vừa vui.&lt;/li&gt;
+  &lt;li&gt;Việc đưa kiến thức sai quả là nguy hiểm. Vì thế nên viết về những thứ bản thân mình đã làm thạo và fix lỗi liên quan ít nhất vài lần. Khi viết về những cái mình mới tìm hiểu ở thời điểm viết thì gắn thẻ TIL (today I learnt).&lt;/li&gt;
+  &lt;li&gt;Tử tế và hòa nhã.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
