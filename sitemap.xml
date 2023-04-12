@@ -17,10 +17,10 @@
 <lastmod>2022-02-15T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>https://vanledev.github.io/about.html</loc>
+<loc>https://vanledev.github.io/tag/coding/</loc>
 </url>
 <url>
-<loc>https://vanledev.github.io/tag/coding/</loc>
+<loc>https://vanledev.github.io/tag/devdoc/</loc>
 </url>
 <url>
 <loc>https://vanledev.github.io/tag/seo/</loc>
@@ -32,7 +32,7 @@
 <loc>https://vanledev.github.io/tag/blogging/</loc>
 </url>
 <url>
-<loc>https://vanledev.github.io/tag/devdoc/</loc>
+<loc>https://vanledev.github.io/tag/security/</loc>
 </url>
 <url>
 <loc>https://vanledev.github.io/tag/jekyll/</loc>
@@ -48,9 +48,6 @@
 </url>
 <url>
 <loc>https://vanledev.github.io/</loc>
-</url>
-<url>
-<loc>https://vanledev.github.io/tag/security/</loc>
 </url>
 <url>
 <loc>https://vanledev.github.io/tag/netlify/</loc>
