@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://moemoele.github.io/sitemap.xml
+Sitemap: https://vanledev.github.io/sitemap.xml
