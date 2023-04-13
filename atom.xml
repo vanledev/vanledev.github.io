@@ -4,13 +4,73 @@
  <title>vanledev</title>
  <link href="https://vanledev.github.io/atom.xml" rel="self"/>
  <link href="https://vanledev.github.io/"/>
- <updated>2023-04-12T09:47:55+02:00</updated>
+ <updated>2023-04-13T16:05:05+02:00</updated>
  <id>https://vanledev.github.io</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Portfolio</title>
+   <link href="https://vanledev.github.io/portfolio"/>
+   <updated>2023-04-13T00:00:00+02:00</updated>
+   <id>https://vanledev.github.io/portfolio</id>
+   <content type="html">&lt;h1 id=&quot;sample-products&quot;&gt;Sample products&lt;/h1&gt;
+&lt;h2 id=&quot;reactjs-music-player&quot;&gt;ReactJS Music Player&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/8DL5GR8/338835501-993317188713877-4957722221375058937-n.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A simple music player that sources music from Youtube music videos, but doesn’t display the videos.&lt;/li&gt;
+  &lt;li&gt;Used ReactJS, HTML, CSS, TailwindCSS, Javascript, Youtube Iframe API&lt;/li&gt;
+  &lt;li&gt;View demo here: https://vanledev.github.io/react-music-player/&lt;/li&gt;
+  &lt;li&gt;View source code here: https://github.com/vanledev/react-music-player&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;markdown-text-editor&quot;&gt;Markdown Text Editor&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/zsr1dtm/screencapture-vanledev-github-io-md-2023-04-13-20-55-42.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;An online markdown editor with “paste to upload” image from clipboard&lt;/li&gt;
+  &lt;li&gt;Used Javascript, PageDown&lt;/li&gt;
+  &lt;li&gt;View demo here: https://vanledev.github.io/md/&lt;/li&gt;
+  &lt;li&gt;View source code here: https://github.com/vanledev/md&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;javascript-calculator&quot;&gt;Javascript Calculator&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/C2TWKHg/screencapture-vanledev-github-io-calculator-2023-04-13-17-54-07.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A Javascript calculator.&lt;/li&gt;
+  &lt;li&gt;Used HTML, CSS, Javascript&lt;/li&gt;
+  &lt;li&gt;View demo here: https://vanledev.github.io/calculator/&lt;/li&gt;
+  &lt;li&gt;View source code here: https://github.com/vanledev/calculator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chrome-extension-auto-click&quot;&gt;Chrome extension: Auto Click&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;An automation scripts for auto clicking&lt;/li&gt;
+  &lt;li&gt;Used Nodejs, Puppeteer&lt;/li&gt;
+  &lt;li&gt;View source code here: https://github.com/vanledev/auto-refresh-publisher&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;html-template-1&quot;&gt;HTML Template 1&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/JdWDGZj/screencapture-vanledev-github-io-mediaboom-2023-04-13-17-55-13.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A sample HTML homepage&lt;/li&gt;
+  &lt;li&gt;Used pure HTML, CSS, TailwindCSS&lt;/li&gt;
+  &lt;li&gt;View demo here: https://vanledev.github.io/mediaboom/&lt;/li&gt;
+  &lt;li&gt;View source code here: https://github.com/vanledev/mediaboom&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;html-template-2&quot;&gt;HTML Template 2&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/1QmFHdX/screencapture-vanledev-github-io-beachhouse-2023-04-13-18-01-57.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A sample HTML homepage&lt;/li&gt;
+  &lt;li&gt;Used pure HTML, CSS&lt;/li&gt;
+  &lt;li&gt;View demo here: https://vanledev.github.io/beachhouse/&lt;/li&gt;
+  &lt;li&gt;View source code here: https://github.com/vanledev/beachhouse/&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Hệ thập lục (gương mặt vàng trong làng có nhiều định dạng)</title>

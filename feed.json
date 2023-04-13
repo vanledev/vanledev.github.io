@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://vanledev.github.io/portfolio",
+            "title": "Portfolio",
+            "summary": null,
+            "content_text": "Sample productsReactJS Music Player  A simple music player that sources music from Youtube music videos, but doesn’t display the videos.  Used ReactJS, HTML, CSS, TailwindCSS, Javascript, Youtube Iframe API  View demo here: https://vanledev.github.io/react-music-player/  View source code here: https://github.com/vanledev/react-music-playerMarkdown Text Editor  An online markdown editor with “paste to upload” image from clipboard  Used Javascript, PageDown  View demo here: https://vanledev.github.io/md/  View source code here: https://github.com/vanledev/mdJavascript Calculator  A Javascript calculator.  Used HTML, CSS, Javascript  View demo here: https://vanledev.github.io/calculator/  View source code here: https://github.com/vanledev/calculatorChrome extension: Auto Click  An automation scripts for auto clicking  Used Nodejs, Puppeteer  View source code here: https://github.com/vanledev/auto-refresh-publisherHTML Template 1  A sample HTML homepage  Used pure HTML, CSS, TailwindCSS  View demo here: https://vanledev.github.io/mediaboom/  View source code here: https://github.com/vanledev/mediaboomHTML Template 2  A sample HTML homepage  Used pure HTML, CSS  View demo here: https://vanledev.github.io/beachhouse/  View source code here: https://github.com/vanledev/beachhouse/",
+            "content_html": "<h1 id=\"sample-products\">Sample products</h1><h2 id=\"reactjs-music-player\">ReactJS Music Player</h2><p><img src=\"https://i.ibb.co/8DL5GR8/338835501-993317188713877-4957722221375058937-n.jpg\" alt=\"\" /></p><ul>  <li>A simple music player that sources music from Youtube music videos, but doesn’t display the videos.</li>  <li>Used ReactJS, HTML, CSS, TailwindCSS, Javascript, Youtube Iframe API</li>  <li>View demo here: https://vanledev.github.io/react-music-player/</li>  <li>View source code here: https://github.com/vanledev/react-music-player</li></ul><h2 id=\"markdown-text-editor\">Markdown Text Editor</h2><p><img src=\"https://i.ibb.co/zsr1dtm/screencapture-vanledev-github-io-md-2023-04-13-20-55-42.png\" alt=\"\" /></p><ul>  <li>An online markdown editor with “paste to upload” image from clipboard</li>  <li>Used Javascript, PageDown</li>  <li>View demo here: https://vanledev.github.io/md/</li>  <li>View source code here: https://github.com/vanledev/md</li></ul><h2 id=\"javascript-calculator\">Javascript Calculator</h2><p><img src=\"https://i.ibb.co/C2TWKHg/screencapture-vanledev-github-io-calculator-2023-04-13-17-54-07.png\" alt=\"\" /></p><ul>  <li>A Javascript calculator.</li>  <li>Used HTML, CSS, Javascript</li>  <li>View demo here: https://vanledev.github.io/calculator/</li>  <li>View source code here: https://github.com/vanledev/calculator</li></ul><h2 id=\"chrome-extension-auto-click\">Chrome extension: Auto Click</h2><ul>  <li>An automation scripts for auto clicking</li>  <li>Used Nodejs, Puppeteer</li>  <li>View source code here: https://github.com/vanledev/auto-refresh-publisher</li></ul><h2 id=\"html-template-1\">HTML Template 1</h2><p><img src=\"https://i.ibb.co/JdWDGZj/screencapture-vanledev-github-io-mediaboom-2023-04-13-17-55-13.png\" alt=\"\" /></p><ul>  <li>A sample HTML homepage</li>  <li>Used pure HTML, CSS, TailwindCSS</li>  <li>View demo here: https://vanledev.github.io/mediaboom/</li>  <li>View source code here: https://github.com/vanledev/mediaboom</li></ul><h2 id=\"html-template-2\">HTML Template 2</h2><p><img src=\"https://i.ibb.co/1QmFHdX/screencapture-vanledev-github-io-beachhouse-2023-04-13-18-01-57.png\" alt=\"\" /></p><ul>  <li>A sample HTML homepage</li>  <li>Used pure HTML, CSS</li>  <li>View demo here: https://vanledev.github.io/beachhouse/</li>  <li>View source code here: https://github.com/vanledev/beachhouse/</li></ul>",
+            "url": "https://vanledev.github.io/portfolio",
+            
+            
+            
+            
+            
+            "date_published": "2023-04-13T00:00:00+02:00",
+            "date_modified": "2023-04-13T00:00:00+02:00",
+            
+                "author": 
+                "{"userpicture"=>nil, "username"=>nil, "github"=>nil, "twitter"=>nil}"
+                
+            
+        },
+    
+        {
             "id": "https://vanledev.github.io/hexadecimal",
             "title": "Hệ thập lục (gương mặt vàng trong làng có nhiều định dạng)",
             "summary": null,
