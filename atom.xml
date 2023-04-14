@@ -4,7 +4,7 @@
  <title>vanledev</title>
  <link href="https://vanledev.github.io/atom.xml" rel="self"/>
  <link href="https://vanledev.github.io/"/>
- <updated>2023-04-13T16:13:14+02:00</updated>
+ <updated>2023-04-14T12:58:21+02:00</updated>
  <id>https://vanledev.github.io</id>
  <author>
    <name></name>
@@ -17,7 +17,7 @@
    <link href="https://vanledev.github.io/portfolio"/>
    <updated>2023-04-13T00:00:00+02:00</updated>
    <id>https://vanledev.github.io/portfolio</id>
-   <content type="html">&lt;h1 id=&quot;sample-products&quot;&gt;Sample products&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;sample-projects&quot;&gt;Sample projects&lt;/h1&gt;
 &lt;h2 id=&quot;reactjs-music-player&quot;&gt;ReactJS Music Player&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;https://i.ibb.co/8DL5GR8/338835501-993317188713877-4957722221375058937-n.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
