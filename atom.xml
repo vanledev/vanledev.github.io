@@ -4,7 +4,7 @@
  <title>moerror</title>
  <link href="https://moerror.com/atom.xml" rel="self"/>
  <link href="https://moerror.com/"/>
- <updated>2024-03-22T05:45:34+01:00</updated>
+ <updated>2024-03-22T05:46:16+01:00</updated>
  <id>https://moerror.com</id>
  <author>
    <name></name>
@@ -13,13 +13,11 @@
 
  
  <entry>
-   <title>Fix Height Wp</title>
+   <title>Cố định chiều cao ảnh woocommerce</title>
    <link href="https://moerror.com/fix-height-wp"/>
    <updated>2024-03-01T00:00:00+01:00</updated>
    <id>https://moerror.com/fix-height-wp</id>
-   <content type="html">&lt;h1 id=&quot;cố-định-chiều-cao-ảnh-woocommerce&quot;&gt;Cố định chiều cao ảnh woocommerce&lt;/h1&gt;
-
-&lt;p&gt;Vào Appearance &amp;gt; Theme File Editor&lt;/p&gt;
+   <content type="html">&lt;p&gt;Vào Appearance &amp;gt; Theme File Editor&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.ibb.co/xYZ0W6Q/68f06e8b9c8d.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 

@@ -14,15 +14,15 @@
     
         {
             "id": "https://moerror.com/fix-height-wp",
-            "title": "Fix Height Wp",
+            "title": "Cố định chiều cao ảnh woocommerce",
             "summary": null,
-            "content_text": "Cố định chiều cao ảnh woocommerceVào Appearance &gt; Theme File EditorTìm đến theme Child, mở file style.cssPaste code sau đây vào,.woocommerce ul.products li.product a img { height: 300px !important; margin-bottom: 0 !important; object-fit: contain !important; }Chỗ 300  có thể thay bằng con số khác tùy thuộc vào chiều cao mong muốnLưu lại, xóa tất cả các cache (nếu có)",
-            "content_html": "<h1 id=\"cố-định-chiều-cao-ảnh-woocommerce\">Cố định chiều cao ảnh woocommerce</h1><p>Vào Appearance &gt; Theme File Editor</p><p><img src=\"https://i.ibb.co/xYZ0W6Q/68f06e8b9c8d.png\" alt=\"\" /></p><p>Tìm đến theme Child, mở file style.css<img src=\"https://i.ibb.co/9GNzWb9/a800a81afa06.png\" alt=\"\" /></p><p>Paste code sau đây vào,</p><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>.woocommerce ul.products li.product a img { height: 300px !important; margin-bottom: 0 !important; object-fit: contain !important; }</code></pre></div></div><p>Chỗ 300  có thể thay bằng con số khác tùy thuộc vào chiều cao mong muốn</p><p>Lưu lại, xóa tất cả các cache (nếu có)</p>",
+            "content_text": "Vào Appearance &gt; Theme File EditorTìm đến theme Child, mở file style.cssPaste code sau đây vào,.woocommerce ul.products li.product a img { height: 300px !important; margin-bottom: 0 !important; object-fit: contain !important; }Chỗ 300  có thể thay bằng con số khác tùy thuộc vào chiều cao mong muốnLưu lại, xóa tất cả các cache (nếu có)",
+            "content_html": "<p>Vào Appearance &gt; Theme File Editor</p><p><img src=\"https://i.ibb.co/xYZ0W6Q/68f06e8b9c8d.png\" alt=\"\" /></p><p>Tìm đến theme Child, mở file style.css<img src=\"https://i.ibb.co/9GNzWb9/a800a81afa06.png\" alt=\"\" /></p><p>Paste code sau đây vào,</p><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>.woocommerce ul.products li.product a img { height: 300px !important; margin-bottom: 0 !important; object-fit: contain !important; }</code></pre></div></div><p>Chỗ 300  có thể thay bằng con số khác tùy thuộc vào chiều cao mong muốn</p><p>Lưu lại, xóa tất cả các cache (nếu có)</p>",
             "url": "https://moerror.com/fix-height-wp",
             
             
             
-            
+            "tags": ["wordpress","css"],
             
             "date_published": "2024-03-01T00:00:00+01:00",
             "date_modified": "2024-03-01T00:00:00+01:00",
