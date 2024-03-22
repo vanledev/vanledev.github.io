@@ -4,7 +4,7 @@
  <title>moerror</title>
  <link href="https://moerror.com/atom.xml" rel="self"/>
  <link href="https://moerror.com/"/>
- <updated>2024-03-22T05:31:38+01:00</updated>
+ <updated>2024-03-22T05:32:13+01:00</updated>
  <id>https://moerror.com</id>
  <author>
    <name></name>
@@ -199,21 +199,6 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Có cái hay là dù mỗi kí tự sau khi chuyển sang base64 chỉ chiếm 6 bit tức là nhỏ hơn binary là 8 bit, nhưng số lượng kí tự lại cần nhiều hơn. Đâm ra file size base64 vẫn lớn hơn.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Tôi muốn viết blog như thế nào?</title>
-   <link href="https://moerror.com/toi-viet-blog"/>
-   <updated>2022-02-13T00:00:00+01:00</updated>
-   <id>https://moerror.com/toi-viet-blog</id>
-   <content type="html">&lt;ul&gt;
-  &lt;li&gt;Những gì cần phải hiểu thì tập trung vào khái niệm và cách giải quyết vấn đề. Những gì mà mọi người hầu như chỉ cần đạt kết quả để tập trung làm việc khác, thì tập trung vào show code và cách làm.&lt;/li&gt;
-  &lt;li&gt;Không tạo tutorial những thứ nên tự làm, những cái quá dễ tự suy ra được, những cái dễ kiếm trên Internet.&lt;/li&gt;
-  &lt;li&gt;Giọng văn dễ hiểu, giản dị, hài hước. Bản thân mình cũng cùi nên nhiều khi đọc tut khó mình chả hiểu gì. Ngược lại khi sờ vào được một bài đơn giản ngắn gọn dễ hiểu lại còn hài, mình vừa cảm kích vừa vui.&lt;/li&gt;
-  &lt;li&gt;Việc đưa kiến thức sai quả là nguy hiểm. Vì thế nên viết về những thứ bản thân mình đã làm thạo và fix lỗi liên quan ít nhất vài lần. Khi viết về những cái mình mới tìm hiểu ở thời điểm viết thì gắn thẻ TIL (today I learnt).&lt;/li&gt;
-  &lt;li&gt;Tử tế và hòa nhã.&lt;/li&gt;
-&lt;/ul&gt;
 </content>
  </entry>
  

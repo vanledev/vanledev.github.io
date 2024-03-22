@@ -94,27 +94,6 @@
                 "{"userpicture"=>nil, "username"=>nil, "github"=>nil, "twitter"=>nil}"
                 
             
-        },
-    
-        {
-            "id": "https://moerror.com/toi-viet-blog",
-            "title": "Tôi muốn viết blog như thế nào?",
-            "summary": null,
-            "content_text": "  Những gì cần phải hiểu thì tập trung vào khái niệm và cách giải quyết vấn đề. Những gì mà mọi người hầu như chỉ cần đạt kết quả để tập trung làm việc khác, thì tập trung vào show code và cách làm.  Không tạo tutorial những thứ nên tự làm, những cái quá dễ tự suy ra được, những cái dễ kiếm trên Internet.  Giọng văn dễ hiểu, giản dị, hài hước. Bản thân mình cũng cùi nên nhiều khi đọc tut khó mình chả hiểu gì. Ngược lại khi sờ vào được một bài đơn giản ngắn gọn dễ hiểu lại còn hài, mình vừa cảm kích vừa vui.  Việc đưa kiến thức sai quả là nguy hiểm. Vì thế nên viết về những thứ bản thân mình đã làm thạo và fix lỗi liên quan ít nhất vài lần. Khi viết về những cái mình mới tìm hiểu ở thời điểm viết thì gắn thẻ TIL (today I learnt).  Tử tế và hòa nhã.",
-            "content_html": "<ul>  <li>Những gì cần phải hiểu thì tập trung vào khái niệm và cách giải quyết vấn đề. Những gì mà mọi người hầu như chỉ cần đạt kết quả để tập trung làm việc khác, thì tập trung vào show code và cách làm.</li>  <li>Không tạo tutorial những thứ nên tự làm, những cái quá dễ tự suy ra được, những cái dễ kiếm trên Internet.</li>  <li>Giọng văn dễ hiểu, giản dị, hài hước. Bản thân mình cũng cùi nên nhiều khi đọc tut khó mình chả hiểu gì. Ngược lại khi sờ vào được một bài đơn giản ngắn gọn dễ hiểu lại còn hài, mình vừa cảm kích vừa vui.</li>  <li>Việc đưa kiến thức sai quả là nguy hiểm. Vì thế nên viết về những thứ bản thân mình đã làm thạo và fix lỗi liên quan ít nhất vài lần. Khi viết về những cái mình mới tìm hiểu ở thời điểm viết thì gắn thẻ TIL (today I learnt).</li>  <li>Tử tế và hòa nhã.</li></ul>",
-            "url": "https://moerror.com/toi-viet-blog",
-            
-            
-            
-            
-            
-            "date_published": "2022-02-13T00:00:00+01:00",
-            "date_modified": "2022-02-13T00:00:00+01:00",
-            
-                "author": 
-                "{"userpicture"=>nil, "username"=>nil, "github"=>nil, "twitter"=>nil}"
-                
-            
         }
     
     ]
