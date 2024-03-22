@@ -4,13 +4,38 @@
  <title>moerror</title>
  <link href="https://moerror.com/atom.xml" rel="self"/>
  <link href="https://moerror.com/"/>
- <updated>2024-03-22T05:37:40+01:00</updated>
+ <updated>2024-03-22T05:45:34+01:00</updated>
  <id>https://moerror.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Fix Height Wp</title>
+   <link href="https://moerror.com/fix-height-wp"/>
+   <updated>2024-03-01T00:00:00+01:00</updated>
+   <id>https://moerror.com/fix-height-wp</id>
+   <content type="html">&lt;h1 id=&quot;cố-định-chiều-cao-ảnh-woocommerce&quot;&gt;Cố định chiều cao ảnh woocommerce&lt;/h1&gt;
+
+&lt;p&gt;Vào Appearance &amp;gt; Theme File Editor&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/xYZ0W6Q/68f06e8b9c8d.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tìm đến theme Child, mở file style.css
+&lt;img src=&quot;https://i.ibb.co/9GNzWb9/a800a81afa06.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Paste code sau đây vào,&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.woocommerce ul.products li.product a img { height: 300px !important; margin-bottom: 0 !important; object-fit: contain !important; }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Chỗ 300  có thể thay bằng con số khác tùy thuộc vào chiều cao mong muốn&lt;/p&gt;
+
+&lt;p&gt;Lưu lại, xóa tất cả các cache (nếu có)&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Portfolio</title>
