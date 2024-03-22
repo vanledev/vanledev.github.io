@@ -34,6 +34,27 @@
         },
     
         {
+            "id": "https://moerror.com/greenshift",
+            "title": "Sửa lỗi ở pagebuilder GreenShift và Gutenberg",
+            "summary": null,
+            "content_text": "Đối với những trường hợp mà hiển thị như thế này.Tức là có lỗi trong pagebuilder đó. Lúc này, nếu muốn sửa block thì phải làm thủ công như sau:Mở trang web page ra, đưa chuột vào chỗ cần sửa, nhấn phải chuột, chọn Inspect.Xuất hiện cửa sổ code, thường nằm ở bên phải. Tìm đến đoạn code tạo ra phần cần sửa. Trỏ chuột vào đoạn code đó, nếu phần cần sửa được bôi màu xanh như hình, tức là đã tìm đúng.Nếu là trường hợp cần sửa ảnh, copy đoạn link ảnh.Rồi quay sang màn hình chỉnh sửa Edit Post ban nãyNhấn nút ba chấm ở góc trên bên phải màn hình Edit Post, chọn Code EditorBấm CTRL + F để tìm link ảnh ở trong màn hình đó. Và thay thế với link ảnh mới. Thay thế tất cả link ảnh tồn tại trong trang chỉnh sửa.Lưu và kiểm tra lại ở trang web.",
+            "content_html": "<p><img src=\"https://i.ibb.co/DVVM6rz/9ea9169cb514.png\" alt=\"\" /></p><p>Đối với những trường hợp mà hiển thị như thế này.</p><p><img src=\"https://i.ibb.co/CmbWcpw/7a34d40774fb.png\" alt=\"\" /></p><p>Tức là có lỗi trong pagebuilder đó. Lúc này, nếu muốn sửa block thì phải làm thủ công như sau:</p><p>Mở trang web page ra, đưa chuột vào chỗ cần sửa, nhấn phải chuột, chọn Inspect.</p><p><img src=\"https://i.ibb.co/7YvF24Y/f08422a46934.png\" alt=\"\" /></p><p>Xuất hiện cửa sổ code, thường nằm ở bên phải. Tìm đến đoạn code tạo ra phần cần sửa. Trỏ chuột vào đoạn code đó, nếu phần cần sửa được bôi màu xanh như hình, tức là đã tìm đúng.</p><p><img src=\"https://i.ibb.co/TKwKbWp/15e64de1c246.png\" alt=\"\" /></p><p>Nếu là trường hợp cần sửa ảnh, copy đoạn link ảnh.</p><p>Rồi quay sang màn hình chỉnh sửa Edit Post ban nãy</p><p>Nhấn nút ba chấm ở góc trên bên phải màn hình Edit Post, chọn Code Editor<img src=\"https://i.ibb.co/ysfV6BK/bfc43f4da25f.png\" alt=\"\" /></p><p>Bấm CTRL + F để tìm link ảnh ở trong màn hình đó. Và thay thế với link ảnh mới. Thay thế tất cả link ảnh tồn tại trong trang chỉnh sửa.</p><p><img src=\"https://i.ibb.co/zZ0njxD/286ea0f8552d.png\" alt=\"\" /></p><p>Lưu và kiểm tra lại ở trang web.</p>",
+            "url": "https://moerror.com/greenshift",
+            
+            
+            
+            
+            
+            "date_published": "2024-02-02T00:00:00+01:00",
+            "date_modified": "2024-02-02T00:00:00+01:00",
+            
+                "author": 
+                "{"userpicture"=>nil, "username"=>nil, "github"=>nil, "twitter"=>nil}"
+                
+            
+        },
+    
+        {
             "id": "https://moerror.com/portfolio",
             "title": "Portfolio",
             "summary": null,

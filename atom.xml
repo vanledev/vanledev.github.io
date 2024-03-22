@@ -4,7 +4,7 @@
  <title>moerror</title>
  <link href="https://moerror.com/atom.xml" rel="self"/>
  <link href="https://moerror.com/"/>
- <updated>2024-03-22T05:46:16+01:00</updated>
+ <updated>2024-03-22T05:52:33+01:00</updated>
  <id>https://moerror.com</id>
  <author>
    <name></name>
@@ -32,6 +32,42 @@
 &lt;p&gt;Chỗ 300  có thể thay bằng con số khác tùy thuộc vào chiều cao mong muốn&lt;/p&gt;
 
 &lt;p&gt;Lưu lại, xóa tất cả các cache (nếu có)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Sửa lỗi ở pagebuilder GreenShift và Gutenberg</title>
+   <link href="https://moerror.com/greenshift"/>
+   <updated>2024-02-02T00:00:00+01:00</updated>
+   <id>https://moerror.com/greenshift</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/DVVM6rz/9ea9169cb514.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Đối với những trường hợp mà hiển thị như thế này.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/CmbWcpw/7a34d40774fb.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tức là có lỗi trong pagebuilder đó. Lúc này, nếu muốn sửa block thì phải làm thủ công như sau:&lt;/p&gt;
+
+&lt;p&gt;Mở trang web page ra, đưa chuột vào chỗ cần sửa, nhấn phải chuột, chọn Inspect.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/7YvF24Y/f08422a46934.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Xuất hiện cửa sổ code, thường nằm ở bên phải. Tìm đến đoạn code tạo ra phần cần sửa. Trỏ chuột vào đoạn code đó, nếu phần cần sửa được bôi màu xanh như hình, tức là đã tìm đúng.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/TKwKbWp/15e64de1c246.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nếu là trường hợp cần sửa ảnh, copy đoạn link ảnh.&lt;/p&gt;
+
+&lt;p&gt;Rồi quay sang màn hình chỉnh sửa Edit Post ban nãy&lt;/p&gt;
+
+&lt;p&gt;Nhấn nút ba chấm ở góc trên bên phải màn hình Edit Post, chọn Code Editor
+&lt;img src=&quot;https://i.ibb.co/ysfV6BK/bfc43f4da25f.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bấm CTRL + F để tìm link ảnh ở trong màn hình đó. Và thay thế với link ảnh mới. Thay thế tất cả link ảnh tồn tại trong trang chỉnh sửa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/zZ0njxD/286ea0f8552d.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lưu và kiểm tra lại ở trang web.&lt;/p&gt;
 </content>
  </entry>
  
