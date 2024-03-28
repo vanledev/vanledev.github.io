@@ -4,13 +4,23 @@
  <title>moerror</title>
  <link href="https://moerror.com/atom.xml" rel="self"/>
  <link href="https://moerror.com/"/>
- <updated>2024-03-28T11:13:33+01:00</updated>
+ <updated>2024-03-28T11:44:34+01:00</updated>
  <id>https://moerror.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>test nhiều field</title>
+   <link href="https://moerror.com/test-nhieu-field"/>
+   <updated>2024-03-28T00:00:00+01:00</updated>
+   <id>https://moerror.com/test-nhieu-field</id>
+   <content type="html">&lt;h2 id=&quot;heading&quot;&gt;Heading&lt;/h2&gt;
+&lt;p&gt;dsfasdf&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>tên văn bản4g</title>

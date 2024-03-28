@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://moerror.com/test-nhieu-field",
+            "title": "test nhiều field",
+            "summary": null,
+            "content_text": "Headingdsfasdf",
+            "content_html": "<h2 id=\"heading\">Heading</h2><p>dsfasdf</p>",
+            "url": "https://moerror.com/test-nhieu-field",
+            
+            
+            
+            "tags": ["glitch","blog"],
+            
+            "date_published": "2024-03-28T00:00:00+01:00",
+            "date_modified": "2024-03-28T00:00:00+01:00",
+            
+                "author": 
+                "{"userpicture"=>nil, "username"=>nil, "github"=>nil, "twitter"=>nil}"
+                
+            
+        },
+    
+        {
             "id": "https://moerror.com/ten-van-ban4g",
             "title": "tên văn bản4g",
             "summary": null,
