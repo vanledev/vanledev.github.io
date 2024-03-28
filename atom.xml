@@ -4,7 +4,7 @@
  <title>moerror</title>
  <link href="https://moerror.com/atom.xml" rel="self"/>
  <link href="https://moerror.com/"/>
- <updated>2024-03-28T09:14:49+01:00</updated>
+ <updated>2024-03-28T10:15:32+01:00</updated>
  <id>https://moerror.com</id>
  <author>
    <name></name>
@@ -18,6 +18,15 @@
    <updated>2024-03-28T00:00:00+01:00</updated>
    <id>https://moerror.com/ten-van-ban</id>
    <content type="html">&lt;p&gt;File content&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title></title>
+   <link href="https://moerror.com/"/>
+   <updated>2024-03-28T00:00:00+01:00</updated>
+   <id>https://moerror.com/</id>
+   <content type="html">&lt;p&gt;undefined&lt;/p&gt;
 </content>
  </entry>
  
