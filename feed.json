@@ -12,5 +12,110 @@
     
 "items": [
     
+        {
+            "id": "https://moerror.com/fix-height-wp",
+            "title": "Cố định chiều cao ảnh woocommerce",
+            "summary": null,
+            "content_text": "Vào Appearance &gt; Theme File EditorTìm đến theme Child, mở file style.cssPaste code sau đây vào,.woocommerce ul.products li.product a img { height: 300px !important; margin-bottom: 0 !important; object-fit: contain !important; }Chỗ 300  có thể thay bằng con số khác tùy thuộc vào chiều cao mong muốnLưu lại, xóa tất cả các cache (nếu có)",
+            "content_html": "<p>Vào Appearance &gt; Theme File Editor</p><p><img src=\"https://i.ibb.co/xYZ0W6Q/68f06e8b9c8d.png\" alt=\"\" /></p><p>Tìm đến theme Child, mở file style.css<img src=\"https://i.ibb.co/9GNzWb9/a800a81afa06.png\" alt=\"\" /></p><p>Paste code sau đây vào,</p><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>.woocommerce ul.products li.product a img { height: 300px !important; margin-bottom: 0 !important; object-fit: contain !important; }</code></pre></div></div><p>Chỗ 300  có thể thay bằng con số khác tùy thuộc vào chiều cao mong muốn</p><p>Lưu lại, xóa tất cả các cache (nếu có)</p>",
+            "url": "https://moerror.com/fix-height-wp",
+            
+            
+            
+            "tags": ["wordpress","css"],
+            
+            "date_published": "2024-03-01T00:00:00+01:00",
+            "date_modified": "2024-03-01T00:00:00+01:00",
+            
+                "author": 
+                "{"userpicture"=>nil, "username"=>nil, "github"=>nil, "twitter"=>nil}"
+                
+            
+        },
+    
+        {
+            "id": "https://moerror.com/greenshift",
+            "title": "Sửa lỗi ở pagebuilder GreenShift và Gutenberg",
+            "summary": null,
+            "content_text": "Đối với những trường hợp mà hiển thị như thế này.Tức là có lỗi trong pagebuilder đó. Lúc này, nếu muốn sửa block thì phải làm thủ công như sau:Mở trang web page ra, đưa chuột vào chỗ cần sửa, nhấn phải chuột, chọn Inspect.Xuất hiện cửa sổ code, thường nằm ở bên phải. Tìm đến đoạn code tạo ra phần cần sửa. Trỏ chuột vào đoạn code đó, nếu phần cần sửa được bôi màu xanh như hình, tức là đã tìm đúng.Nếu là trường hợp cần sửa ảnh, copy đoạn link ảnh.Rồi quay sang màn hình chỉnh sửa Edit Post ban nãyNhấn nút ba chấm ở góc trên bên phải màn hình Edit Post, chọn Code EditorBấm CTRL + F để tìm link ảnh ở trong màn hình đó. Và thay thế với link ảnh mới. Thay thế tất cả link ảnh tồn tại trong trang chỉnh sửa.Lưu và kiểm tra lại ở trang web.",
+            "content_html": "<p><img src=\"https://i.ibb.co/DVVM6rz/9ea9169cb514.png\" alt=\"\" /></p><p>Đối với những trường hợp mà hiển thị như thế này.</p><p><img src=\"https://i.ibb.co/CmbWcpw/7a34d40774fb.png\" alt=\"\" /></p><p>Tức là có lỗi trong pagebuilder đó. Lúc này, nếu muốn sửa block thì phải làm thủ công như sau:</p><p>Mở trang web page ra, đưa chuột vào chỗ cần sửa, nhấn phải chuột, chọn Inspect.</p><p><img src=\"https://i.ibb.co/7YvF24Y/f08422a46934.png\" alt=\"\" /></p><p>Xuất hiện cửa sổ code, thường nằm ở bên phải. Tìm đến đoạn code tạo ra phần cần sửa. Trỏ chuột vào đoạn code đó, nếu phần cần sửa được bôi màu xanh như hình, tức là đã tìm đúng.</p><p><img src=\"https://i.ibb.co/TKwKbWp/15e64de1c246.png\" alt=\"\" /></p><p>Nếu là trường hợp cần sửa ảnh, copy đoạn link ảnh.</p><p>Rồi quay sang màn hình chỉnh sửa Edit Post ban nãy</p><p>Nhấn nút ba chấm ở góc trên bên phải màn hình Edit Post, chọn Code Editor<img src=\"https://i.ibb.co/ysfV6BK/bfc43f4da25f.png\" alt=\"\" /></p><p>Bấm CTRL + F để tìm link ảnh ở trong màn hình đó. Và thay thế với link ảnh mới. Thay thế tất cả link ảnh tồn tại trong trang chỉnh sửa.</p><p><img src=\"https://i.ibb.co/zZ0njxD/286ea0f8552d.png\" alt=\"\" /></p><p>Lưu và kiểm tra lại ở trang web.</p>",
+            "url": "https://moerror.com/greenshift",
+            
+            
+            
+            
+            
+            "date_published": "2024-02-02T00:00:00+01:00",
+            "date_modified": "2024-02-02T00:00:00+01:00",
+            
+                "author": 
+                "{"userpicture"=>nil, "username"=>nil, "github"=>nil, "twitter"=>nil}"
+                
+            
+        },
+    
+        {
+            "id": "https://moerror.com/hexadecimal",
+            "title": "Hệ thập lục (gương mặt vàng trong làng có nhiều định dạng)",
+            "summary": null,
+            "content_text": "Dữ liệu nhị phân thì thân thiện với máy nhưng không thân thiện với người (thì rõ, 000110101010101010), sinh ra hệ thập lục phân Hexadecimal. Cách chuyển đổi thì như sauChia cái số nhị phân ra thành cụm 40101 \t1110 \t1011 \t0101 \t0010Rồi convert từng cụm  bằng cách: Đếm từ phải qua, nếu chữ số là 0 thì bỏ qua, nếu là 1 thì cộng vào tổng một lượng là 2 mũ [vị trí của chữ số đó]0101 = 2^0 + 0 + 2^2 = 5Rồi đối chiếu với bảng quy đổi Hexadecimal: từ 0-9 thì để nguyên, từ 10-15 thì đổi thành A-B-C-D-E-F. Thì số trên ở hệ Hexadecimal là5Đây cũng là lí do tại sao lại là thập lục (16) vì con số thập lục phân sinh ra bằng cách cắn đôi một con nhị phân 8 bit, nó chỉ có 4 chữ số.  Lớn nhất là 11111111 = 2^0 + 2^1 + 2^2 + 2^3 = 1+2+4+8 = 1515 thì đếm từ 0 đến 15 thì chỉ có 16 số thôi. Nên hệ thập lục phân chỉ cần 16 chữ số đại diện.Also, con thập lục này nhìn dễ gây nhầm với hệ thập phân bình thường nên người ta nghĩ ra cách để định dạng nó, mà mỗi ngôn ngữ mỗi môi trường lại định dạng một kiểu mới vuilúc thì \\x1B lúc 0x1B lúc %20 (dấu cách trên trình duyệt) lúc U+20AC lúc &amp;#x2019;",
+            "content_html": "<p>Dữ liệu nhị phân thì thân thiện với máy nhưng không thân thiện với người (thì rõ, 000110101010101010), sinh ra hệ thập lục phân Hexadecimal. Cách chuyển đổi thì như sau</p><p>Chia cái số nhị phân ra thành cụm 4</p><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>0101 \t1110 \t1011 \t0101 \t0010</code></pre></div></div><p>Rồi convert từng cụm  bằng cách: Đếm từ phải qua, nếu chữ số là 0 thì bỏ qua, nếu là 1 thì cộng vào tổng một lượng là 2 mũ [vị trí của chữ số đó]</p><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>0101 = 2^0 + 0 + 2^2 = 5</code></pre></div></div><p>Rồi đối chiếu với bảng quy đổi Hexadecimal: từ 0-9 thì để nguyên, từ 10-15 thì đổi thành A-B-C-D-E-F. Thì số trên ở hệ Hexadecimal là</p><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>5</code></pre></div></div><p>Đây cũng là lí do tại sao lại là thập lục (16) vì con số thập lục phân sinh ra bằng cách cắn đôi một con nhị phân 8 bit, nó chỉ có 4 chữ số.  Lớn nhất là 1111</p><p>1111 = 2^0 + 2^1 + 2^2 + 2^3 = 1+2+4+8 = 15</p><p>15 thì đếm từ 0 đến 15 thì chỉ có 16 số thôi. Nên hệ thập lục phân chỉ cần 16 chữ số đại diện.</p><p>Also, con thập lục này nhìn dễ gây nhầm với hệ thập phân bình thường nên người ta nghĩ ra cách để định dạng nó, <a href=\"https://en.wikipedia.org/wiki/Hexadecimal\">mà mỗi ngôn ngữ mỗi môi trường lại định dạng một kiểu</a> mới vui</p><p>lúc thì <code class=\"language-plaintext highlighter-rouge\">\\x1B</code> lúc <code class=\"language-plaintext highlighter-rouge\">0x1B</code> lúc <code class=\"language-plaintext highlighter-rouge\">%20</code> (dấu cách trên trình duyệt) lúc <code class=\"language-plaintext highlighter-rouge\">U+20AC</code> lúc <code class=\"language-plaintext highlighter-rouge\">&amp;#x2019;</code></p>",
+            "url": "https://moerror.com/hexadecimal",
+            
+            
+            
+            "tags": ["data","til"],
+            
+            "date_published": "2022-02-15T00:00:00+01:00",
+            "date_modified": "2022-02-15T00:00:00+01:00",
+            
+                "author": 
+                "{"userpicture"=>nil, "username"=>nil, "github"=>nil, "twitter"=>nil}"
+                
+            
+        },
+    
+        {
+            "id": "https://moerror.com/getType-json",
+            "title": "Tên method không giống với điều nó làm",
+            "summary": null,
+            "content_text": "Đọc mấy tên method muốn lộn mề. Ví dụ method json() của object Response, nghe cứ tưởng là convert ra JSON?! Thực chất là nó nhận dữ liệu JSON rồi convert ra object.Method getType() của object ClipboardItem, không phải là để lấy type của item, vì lấy type thì có cái property ClipboardItem.types rồi. Còn cái method getType() thì thực chất nhận tên type rồi trả về cái blob.Hài.",
+            "content_html": "<p>Đọc mấy tên method muốn lộn mề. Ví dụ method <code class=\"language-plaintext highlighter-rouge\">json()</code> của object <code class=\"language-plaintext highlighter-rouge\">Response</code>, nghe cứ tưởng là convert ra JSON?! Thực chất là nó <strong>nhận</strong> dữ liệu JSON rồi convert ra object.</p><p>Method <code class=\"language-plaintext highlighter-rouge\">getType()</code> của object <code class=\"language-plaintext highlighter-rouge\">ClipboardItem</code>, không phải là để lấy type của item, vì lấy type thì có cái property <code class=\"language-plaintext highlighter-rouge\">ClipboardItem.types</code> rồi. Còn cái method <code class=\"language-plaintext highlighter-rouge\">getType()</code> thì thực chất <strong>nhận</strong> tên type rồi trả về cái blob.</p><p>Hài.</p>",
+            "url": "https://moerror.com/getType-json",
+            
+            
+            
+            "tags": ["other","devdoc","til"],
+            
+            "date_published": "2022-02-14T00:00:00+01:00",
+            "date_modified": "2022-02-14T00:00:00+01:00",
+            
+                "author": 
+                "{"userpicture"=>nil, "username"=>nil, "github"=>nil, "twitter"=>nil}"
+                
+            
+        },
+    
+        {
+            "id": "https://moerror.com/binary-base64",
+            "title": "Sao binary là 0 với 1 mà chiếm 8 bit còn base64 để mã hóa chữ cái mà lại có 6 bit.",
+            "summary": null,
+            "content_text": "Câu hỏi này đặt ra khi mình không hiểu cụ thể mã hóa là làm cái gì.Today I LearntBinary và Base64 đều là hệ thống mã hóa. Ví dụ chữ Man thì có 3 chữ cái, nếu mã hóa, không cần biết là mã hóa theo hệ thống gì, thì ta tạm kết quả sẽ là 3 “kí tự đại diện”01001101 01100001 01101110Một “kí tự đại diện” của bên binary thì có 8 chữ số, mỗi chữ số thì hoặc là số 0, hoặc là số 1. Mỗi chữ số này chiếm 1 bit trong bộ nhớ. Vậy nên một “kí tự đại diện” sẽ ngốn 8 bit.Cũng vì chứa 8 chữ số, mà dãy gồm 8 chữ số đó có 2^8 = 256 biến thể khác nhau, chúng ta đem nó đi đại diện cho 256 kí tự khác nhau cần được mã hóa, còn kí tự đó là gì thì tùy, chữ cái, số má, whatever.Hội đồng lập ra cái mã nhị phân binary này nghĩ rằng 256 biến thể là thừa đủ cho cả bảng chữ cái tiếng Anh và cả số má 0-9 nữa. Nhưng hội đồng lập ra cái Base64 bảo thấy 256 vẫn còn hơi nhiều. Nên ông tính lại, thì bảng chữ cái Tiếng Anh, gồm cả hoa thường, rồi chữ số, rồi dấu má kí tự đặc biệt,… cộng lại chỉ cần 64 slot là quá đủ cho cuộc đời rồi. Nên ông quyết định chỉ dành ra 6 chữ số tức 6 bit cho mỗi kí tự, 2^6 = 64 slots.Chuyển từ binary qua base64 thì làm theo kiểu dồn như sauTừ chữ cái -&gt; chuyển sang số binary (theo bảng alphabet in binary) -&gt; phân chia lại theo từng cụm 6 chữ số -&gt; Convert ngược lại thành chữ cái (theo bảng base64 index table)Ví dụ chữ Man chuyển sang binary01001101 01100001 01101110Dồn lại010011010110000101101110Chia lại theo từng cụm 6 chữ số (nặng 6 bit)010011 010110 000101 101110Đối chiếu với bảng base64 thì được vừa khéo 4 kí tựT\tW\tF\tuCó cái hay là dù mỗi kí tự sau khi chuyển sang base64 chỉ chiếm 6 bit tức là nhỏ hơn binary là 8 bit, nhưng số lượng kí tự lại cần nhiều hơn. Đâm ra file size base64 vẫn lớn hơn.",
+            "content_html": "<p>Câu hỏi này đặt ra khi mình không hiểu cụ thể mã hóa là làm cái gì.</p><p>Today I Learnt</p><p>Binary và Base64 đều là hệ thống mã hóa. Ví dụ chữ Man thì có 3 chữ cái, nếu mã hóa, không cần biết là mã hóa theo hệ thống gì, thì ta tạm kết quả sẽ là 3 “kí tự đại diện”</p><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>01001101 01100001 01101110</code></pre></div></div><p>Một “kí tự đại diện” của bên binary thì có 8 chữ số, mỗi chữ số thì hoặc là số 0, hoặc là số 1. Mỗi chữ số này chiếm 1 bit trong bộ nhớ. Vậy nên một “kí tự đại diện” sẽ ngốn 8 bit.</p><p>Cũng vì chứa 8 chữ số, mà dãy gồm 8 chữ số đó có 2^8 = 256 biến thể khác nhau, chúng ta đem nó đi đại diện cho 256 kí tự khác nhau cần được mã hóa, còn kí tự đó là gì thì tùy, chữ cái, số má, whatever.</p><p>Hội đồng lập ra cái mã nhị phân binary này nghĩ rằng 256 biến thể là thừa đủ cho cả bảng chữ cái tiếng Anh và cả số má 0-9 nữa. Nhưng hội đồng lập ra cái Base64 bảo thấy 256 vẫn còn hơi nhiều. Nên ông tính lại, thì bảng chữ cái Tiếng Anh, gồm cả hoa thường, rồi chữ số, rồi dấu má kí tự đặc biệt,… cộng lại chỉ cần 64 slot là quá đủ cho cuộc đời rồi. Nên ông quyết định chỉ dành ra 6 chữ số tức 6 bit cho mỗi kí tự, 2^6 = 64 slots.</p><p>Chuyển từ binary qua base64 thì làm theo kiểu dồn như sau</p><p>Từ chữ cái -&gt; chuyển sang số binary (theo bảng alphabet in binary) -&gt; phân chia lại theo từng cụm 6 chữ số -&gt; Convert ngược lại thành chữ cái (theo bảng base64 index table)</p><p>Ví dụ chữ Man chuyển sang binary</p><p><img src=\"https://i.ibb.co/4YJZZ9W/Screenshot-1.jpg\" alt=\"\" /></p><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>01001101 01100001 01101110</code></pre></div></div><p>Dồn lại</p><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>010011010110000101101110</code></pre></div></div><p>Chia lại theo từng cụm 6 chữ số (nặng 6 bit)</p><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>010011 010110 000101 101110</code></pre></div></div><p>Đối chiếu với bảng base64 thì được vừa khéo 4 kí tự</p><p><img src=\"https://i.ibb.co/qyws0f3/Screenshot-3.jpg\" alt=\"\" /></p><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>T\tW\tF\tu</code></pre></div></div><p>Có cái hay là dù mỗi kí tự sau khi chuyển sang base64 chỉ chiếm 6 bit tức là nhỏ hơn binary là 8 bit, nhưng số lượng kí tự lại cần nhiều hơn. Đâm ra file size base64 vẫn lớn hơn.</p>",
+            "url": "https://moerror.com/binary-base64",
+            
+            
+            
+            "tags": ["other","data","til"],
+            
+            "date_published": "2022-02-14T00:00:00+01:00",
+            "date_modified": "2022-02-14T00:00:00+01:00",
+            
+                "author": 
+                "{"userpicture"=>nil, "username"=>nil, "github"=>nil, "twitter"=>nil}"
+                
+            
+        }
+    
     ]
 }
