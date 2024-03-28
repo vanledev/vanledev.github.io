@@ -4,13 +4,22 @@
  <title>moerror</title>
  <link href="https://moerror.com/atom.xml" rel="self"/>
  <link href="https://moerror.com/"/>
- <updated>2024-03-28T10:15:32+01:00</updated>
+ <updated>2024-03-28T10:16:08+01:00</updated>
  <id>https://moerror.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Ten Van Ban2</title>
+   <link href="https://moerror.com/ten-van-ban2"/>
+   <updated>2024-03-28T00:00:00+01:00</updated>
+   <id>https://moerror.com/ten-van-ban2</id>
+   <content type="html">&lt;p&gt;undefined&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Ten Van Ban</title>
