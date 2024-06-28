@@ -4,7 +4,7 @@
  <title>moerror</title>
  <link href="https://moerror.com/atom.xml" rel="self"/>
  <link href="https://moerror.com/"/>
- <updated>2024-06-28T12:50:32+02:00</updated>
+ <updated>2024-06-28T12:56:16+02:00</updated>
  <id>https://moerror.com</id>
  <author>
    <name></name>
@@ -124,26 +124,7 @@
    <link href="https://moerror.com/binary-base64"/>
    <updated>2022-02-14T00:00:00+01:00</updated>
    <id>https://moerror.com/binary-base64</id>
-   <content type="html">&lt;p&gt;Câu hỏi này đặt ra khi mình không hiểu cụ thể mã hóa là làm cái gì.&lt;/p&gt;
-
-&lt;p&gt;Today I Learnt&lt;/p&gt;
-
-&lt;p&gt;Binary và Base64 đều là hệ thống mã hóa. Ví dụ chữ Man thì có 3 chữ cái, nếu mã hóa, không cần biết là mã hóa theo hệ thống gì, thì ta tạm kết quả sẽ là 3 “kí tự đại diện”&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;01001101 01100001 01101110
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Một “kí tự đại diện” của bên binary thì có 8 chữ số, mỗi chữ số thì hoặc là số 0, hoặc là số 1. Mỗi chữ số này chiếm 1 bit trong bộ nhớ. Vậy nên một “kí tự đại diện” sẽ ngốn 8 bit.&lt;/p&gt;
-
-&lt;p&gt;Cũng vì chứa 8 chữ số, mà dãy gồm 8 chữ số đó có 2^8 = 256 biến thể khác nhau, chúng ta đem nó đi đại diện cho 256 kí tự khác nhau cần được mã hóa, còn kí tự đó là gì thì tùy, chữ cái, số má, whatever.&lt;/p&gt;
-
-&lt;p&gt;Hội đồng lập ra cái mã nhị phân binary này nghĩ rằng 256 biến thể là thừa đủ cho cả bảng chữ cái tiếng Anh và cả số má 0-9 nữa. Nhưng hội đồng lập ra cái Base64 bảo thấy 256 vẫn còn hơi nhiều. Nên ông tính lại, thì bảng chữ cái Tiếng Anh, gồm cả hoa thường, rồi chữ số, rồi dấu má kí tự đặc biệt,… cộng lại chỉ cần 64 slot là quá đủ cho cuộc đời rồi. Nên ông quyết định chỉ dành ra 6 chữ số tức 6 bit cho mỗi kí tự, 2^6 = 64 slots.&lt;/p&gt;
-
-&lt;p&gt;Chuyển từ binary qua base64 thì làm theo kiểu dồn như sau&lt;/p&gt;
-
-&lt;p&gt;Từ chữ cái -&amp;gt; chuyển sang số binary (theo bảng alphabet in binary) -&amp;gt; phân chia lại theo từng cụm 6 chữ số -&amp;gt; Convert ngược lại thành chữ cái (theo bảng base64 index table)&lt;/p&gt;
-
-&lt;p&gt;Ví dụ chữ Man chuyển sang binary&lt;/p&gt;
+   <content type="html">&lt;p&gt;Ví dụ chữ Man chuyển sang binary&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.ibb.co/4YJZZ9W/Screenshot-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
