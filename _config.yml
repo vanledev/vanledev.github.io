@@ -2,7 +2,7 @@ site: moerror
 title: moerror
 greetings: Hello world!
 description: >-
-  Một số ghi chép về lập trình
+  Ghi chú khi học lập trình
 lang: en-US
 timezone: Europe/Rome
 repo: https://github.com/p0wex/Gesko # site repo [optional]
